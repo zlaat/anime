@@ -1,0 +1,100 @@
+<!-- ЦЕ КОПІЯ!!!!!!!!!!!!!!!!! -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>прівєтік</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles14.css')}}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>аніме.юа</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="_blank">головна</a></li>
+                    <li><a href="#">топ 20</a></li>
+                    <li><a href="#">мої закладки</a></li> <!--чи збережені хз-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="content">
+                <div class="product-grid">
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='evangelion.JPG')}}" alt="євангеліон">
+                        <h2>євангеліон</h2>
+                        <p>нуда моє улюблене</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='deathnote.JPG')}}" alt="зошит смерті">
+                        <h2>зошит смерті</h2>
+                        <p>ляляля</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='souleater.JPG')}}" alt="пожирач душ">
+                        <h2>пожирач душ</h2>
+                        <p>ОТАК</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='nana.JPG')}}" alt="нана">
+                        <h2>нана</h2>
+                        <p>полуничка референс</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='crazy.JPG')}}" alt="шалений азарт">
+                        <h2>шалений азарт</h2>
+                        <p>опопопоп</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='jojo.JPG')}}" alt="дивовижні пригоди джоджо">
+                        <h2>дивовижні пригоди джоджо</h2>
+                        <p>джоджо cспс</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='onepiece.JPG')}}" alt="ван піс">
+                        <h2>ван піс</h2>
+                        <p>міліард серій</p>
+                    </div>
+                    <div class="product-tile">
+                        <img src="{{ url_for('static', filename='spyfamily.JPG')}}" alt="сім'я шпигуна">
+                        <h2>сім'я шпигуна</h2>
+                        <p>ура норм</p>
+                    </div>
+                </div>
+                <aside class="beauty-fact">
+                    <h2>що вас цікавить?</h2>
+                    <li><a href="#">бойовики</a></li>
+                    <li><a href="#">драми</a></li>
+                    <li><a href="#">детективи</a></li>
+                    <li><a href="#">комедії</a></li>
+                    <li><a href="#">пригоди</a></li>
+                    <li><a href="#">псигологічні</a></li>
+                    <li><a href="#">романтика</a></li>
+                    <li><a href="#">фентезі</a></li>
+                </aside>
+				
+            </section>
+			<p></p>
+			<p></p>
+        </div>
+    </main>
+    <footer class="footer d-flex ai-center">
+    <a href="https://u24.gov.ua/" rel="nofollow" target="_blank" class="btn-accent centered-content">підтримати ЗСУ</a>
+    <div class="logo footer__logo">
+        <div class="logo__title">аніме.юа</div>
+        <p class="logo__caption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;аніме українською</p>
+    </div>
+    <div class="footer__text flex-grow-1">
+        для глядачів старше 46+
+        <p>2025 аніме</p>
+    </div>
+    <div class="footer__counter">
+        </div>
+</footer>
+</body>
+</html>
